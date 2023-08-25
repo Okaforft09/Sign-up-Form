@@ -18,7 +18,21 @@ button:hover{
     transition: 1s;
     background-color: black;
 }
-    
+input{
+    border-style: none;
+    width: 15rem;
+    border-radius: 8px;
+    margin: 20px ;
+    padding: 5px;
+     
+} 
+input:invalid{
+    border: 1px solid red;
+}
+fieldset{
+    background-color: black;
+    color: blue;
+}
 
 
 
