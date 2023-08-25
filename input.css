@@ -10,13 +10,17 @@ form{
 button{
     background-color: yellow;
     color: blue;
+    border-radius: 10rem;
+    width: 30rem;
+    height: 3rem;
     
     
 }
 button:hover{
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
     background-color: black;
+    
 }
 input{
     border-style: none;
@@ -24,6 +28,7 @@ input{
     border-radius: 8px;
     margin: 20px ;
     padding: 5px;
+    border-radius: 30rem;
      
 } 
 input:invalid{
@@ -33,6 +38,7 @@ fieldset{
     background-color: black;
     color: blue;
 }
+
 
 
 
