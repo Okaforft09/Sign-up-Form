@@ -18,7 +18,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
     background-color: black;
     
 }
@@ -29,14 +29,33 @@ input{
     margin: 20px ;
     padding: 5px;
     border-radius: 30rem;
+    border-radius: 10rem;
+    width: 30rem;
+    height: 3rem;
+
      
 } 
 input:invalid{
     border: 1px solid red;
 }
 fieldset{
-    background-color: black;
-    color: blue;
+    
+    color: yellow;
+text-align: start;
+width: 30rem;
+}
+#set>input{
+    width: 25px;
+    border-style: none;
+    height: 1rem;
+
+}
+#set{
+    border-style: none;
+}
+.button{
+    font-size: 20px;
+    justify-content: center;
 }
 
 
